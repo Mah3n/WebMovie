@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .card{
+            overflow: hidden;
+        }
+        .card-item{
+            height: 700px;
+            width: 450px;
+            background-color: rgb(151, 22, 22);
+            cursor: pointer;
+        }
+        .card-item img{
+            object-fit: cover;
+            width: 100%;
+            height: 60%;
+            transition: 0.2s ease-in-out;
+        }
+        .content{
+            height: 300px;
+        }
+        .card-item img:hover{
+            scale: 1.2;
+        }
+        .card-item:hover h1{
+            color: yellow;
+        }
+        .content h1{
+            text-align: center;
+        }
+        .content p{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <div class="card">
+            <div class="card-item">
+                <img src="./img/boys.jpg" alt="">
+                <div class="content">
+                    <h1>The Boys</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem omnis veritatis amet eum quia odio? Nobis, laborum. Qui quis ratione libero nesciunt possimus pariatur cupiditate facere ea obcaecati quam provident consectetur fugit praesentium neque veritatis iure perferendis, eveniet eaque dolorem consequatur accusamus. Dolorem, eaque eius inventore qui nam quia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-item">
+                <img src="./img/boys.jpg" alt="">
+                <div class="content">
+                    <h1>The Boys</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem omnis veritatis amet eum quia odio? Nobis, laborum. Qui quis ratione libero nesciunt possimus pariatur cupiditate facere ea obcaecati quam provident consectetur fugit praesentium neque veritatis iure perferendis, eveniet eaque dolorem consequatur accusamus. Dolorem, eaque eius inventore qui nam quia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-item">
+                <img src="./img/boys.jpg" alt="">
+                <div class="content">
+                    <h1>The Boys</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem omnis veritatis amet eum quia odio? Nobis, laborum. Qui quis ratione libero nesciunt possimus pariatur cupiditate facere ea obcaecati quam provident consectetur fugit praesentium neque veritatis iure perferendis, eveniet eaque dolorem consequatur accusamus. Dolorem, eaque eius inventore qui nam quia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-item">
+                <img src="./img/boys.jpg" alt="">
+                <div class="content">
+                    <h1>The Boys</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem omnis veritatis amet eum quia odio? Nobis, laborum. Qui quis ratione libero nesciunt possimus pariatur cupiditate facere ea obcaecati quam provident consectetur fugit praesentium neque veritatis iure perferendis, eveniet eaque dolorem consequatur accusamus. Dolorem, eaque eius inventore qui nam quia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
