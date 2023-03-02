@@ -286,6 +286,13 @@
     #nav_check:checked ~ .navbar{
         background-color: rgb(0, 0, 0);
     }
+    .box-cards {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100px);
+        grid-gap: 2rem;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 820px){
