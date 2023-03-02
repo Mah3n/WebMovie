@@ -16,7 +16,7 @@
 }
 
 .banner-content {
-    position: static;
+    position: absolute;
     top: 18%;
 }
 
@@ -95,6 +95,10 @@
     color: aliceblue;
     display: none;
     cursor: pointer;
+}
+
+.logo2{
+    display: none;
 }
 /* .navbar-item button{
     padding: 10px 30px;
@@ -189,7 +193,7 @@
     .navbar-item{
         float: none;
         position: fixed;
-        top: 5.8%;
+        top: 0;
         left: -100%;
         width: 50%;
         height: calc(100vh);
@@ -229,8 +233,11 @@
         background-position: center;
         background-size: cover;
     }
+    .banner-content{
+        position: static;
+    }
     .banner-content .logo img{
-        margin-top: 18%;
+        margin-top: 15%;
         width: 120px;
         padding-left: 20px;
     }
